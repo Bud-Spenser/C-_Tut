@@ -1,0 +1,28 @@
+1. Wie ist das if Statement aufgebaut und was muss erfüllt sein, damit dieses ausgeführt wird? 
+2. Wie ist das switch Statement aufgebaut und wie unterscheidet sich dieses zum if Statement? 
+3. Wie sehen die Wahrheitstabellen für die „und“ und die „oder“ Verknüpfung aus und wie werden diese in C++ angewendet? 
+
+1. Nach dem Keyword „if“ folgt in runden Klammern die Abfrage, welche überprüft werden soll 
+    -> ist dieser wahr, springt man in den nächsten Code, wenn nicht wird else ausgeführt. 
+2. Beim Switch Statement wird nicht eine Aussage auf richtig oder falsch geprüft sondern eine Variable mit mehreren Werten verglichen. 
+    -> ist die Variable gleich dem Wert, wird Code ausgeführt, wichtig ist der Break Befehl, damit der Switch verlassen wird. 
+    -> ist kein Wert passend wird der Default Case ausgeführt. 
+3.  A B     A && B   
+    T T     T 
+    T F     F
+    F T     F 
+    F F     F
+
+    A B     A || B   
+    T T     T 
+    T F     T
+    F T     T 
+    F F     F
+
+    A !A 
+    T F 
+    F T
+
+Es gibt drei Verknüpfungen, Und, Oder und Negierung. 
+Diese werden als and oder or verwendet, gemäß der Wahrheitstabellen kommt dann True oder false raus. 
+
