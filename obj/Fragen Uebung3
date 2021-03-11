@@ -1,0 +1,33 @@
+1. Welche Arten von Schleifen gibt es? Beschreiben Sie kurz deren Syntax und in wie fern sich diese voneinander unterscheiden. 
+2. In welchem Zusammenhang stehen die Schlüsselwörter „break“ und „continue“ mit dem Thema Schleifen? 
+3. Was sind Arrays? Wie werden diese deklariert und was ist zusätzlich noch bei der Verwendung von Arrays zu beachten (Index)? 
+
+1. Es gibt die Do - while, While und For Schleifen 
+
+    -> Die Do-while Schleife ist eine Fußgesteuerte Schleife, im Gegensatz zur whileSchleife, welche eine Kopfgesteuerte Schleife ist.
+    -> Kopfgesteuert heißt, es wird erst überprüft, ob der Codeblock ausgeführt werden soll.
+    -> Bei der Fußgesteuerten Schleife wird der Codeblock erst ausgeführt, bevor die Abbruchbedingung überprüft wird.
+
+    -> Die whileSchleife ist wie ein ifStatement aufgebaut.
+    -> Als erstes kommt das Keyword while, gefolgt von der Aussage die wahr sein muss, damit der folgende Codeblock ausgeführt wird. 
+
+    -> Die For Schleife wird auch als „Zählschleife“ bezeichnet und ist Kopfgesteuert.
+    -> Der Kopf ist in drei Teile geteilt.
+    -> Im ersten Teil können beliebige viele Variablen für die Schleife deklariert und initialisiert werden.
+    -> Im Mittelteil steht wieder die Abbruchbedingung
+    -> Der letzte Teil beinhaltet Code, welcher nach jedem Schleifendurchlauf ausgeführt werden soll. 
+
+2.  break bricht deie Schleife ab, beim Antreffen dieses Wortes wird die Schleife terminiert. 
+    continue beendet den aktuellen Durchlauf und springt zum nächsten, falls dieser stattfindet. 
+
+3.  Eindimensionale Arrays sind ein Block im Speicher, in dem genau ein Datentyp gespeichert wird.
+    Sie werden wie eine Variable definiert, nur das im Klammern hinter dem Namen noch die Größe des Arrays steht
+        -> int Array[4] -> zu beachten, array beginnt bei 0 , also 0-3 in diesem Fall!
+        -> auf die in dem Array gespeicherte Variable lässt sich über den Index zugreifen. 
+
+    Es gibt auch mehrdimensionale Arrays. Alles verhält sich analog zu eindimensionalen, es gibt nur diesmal zwei brackets. 
+        Array [1][2] ...
+        Vergleichbar mit einer Matrix
+
+    
+
