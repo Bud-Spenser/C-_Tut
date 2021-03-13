@@ -4,3 +4,10 @@
 4. Was versteht man unter Rekursion? 
 5. Was versteht man unter Variablenscope? 
 
+1. Ähnlich wie Schleifen, sind Funktionen dazu da Code, der häufig benötigt wird, in eine geeignete Datenstruktur zu verkapseln.
+2. Der „Kopf“ der Funktion benötigt einen Namen, sowie die Eingabeparameter und den Rückgabewert.
+3. Nein. Es gibt auch welche, die Daten einfach bearbeiten aber nichts zurückgeben. 
+4. Eine sich selbst aufrufende Funktion.
+5.  Variablen besitzen eine Lebenszeit und eine Sichtbarkeit.
+    Variablen sind nur so lange „lebendig“ so lange Sie in ihrem Variablenscopesind.
+    Variablen, welche z.B. in einer Schleife oder Funktion deklariert worden sind. Sind auch nur dort sichtbar und auch nur dann lebendig, wenn der Codeausschnitt ausgeführt wird. Danach werden diese Variablen aus dem Speicher gelöscht.
