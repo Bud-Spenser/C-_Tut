@@ -1,0 +1,24 @@
+1. Was sind Referenzen und Pointer?
+2. Welche Vorteile bringen Referenzen und Pointer mit sich?
+3. Wozu wird das * und & benötigt im Hinblick auf Referenzen und Pointer?
+4. Erklären Sie Pointerarithmetik.
+
+1. Referenzen sind alternative Namen für
+existierende Variablen.
+    In einem Pointer wird die Adresse im
+Arbeitsspeicher hinterlegt, auf welche der Pointer
+verweist.
+2. Funktionen in C++ können nur einen
+Rückgabewert zurückgeben. Mit Hilfe von
+Referenzen und Pointern kann man dieses
+Umgehen.
+• Übergabe von großen Datenstrukturen kann
+vermieden werden, indem nur ein Pointer oder
+eine Referenz übergeben wird.
+3. & wird benötigt um eine Referenz zu initialisieren. 
+    & wird außerdem benötigt, um die Adresse einer Variablen zu erhalten. 
+    * wird benötigt um einen Pointer zu Initialisieren und zu dereferenzieren.
+4. man kann die Adresse eines Pointers verändern.:
+mit ++ lässt sich sie erhöhen, mit -- erniedrigen. 
+mit =+ und -= kann man Werte hinzufügen oder subtragieren
+Mit diesen Operationen kann man auf benachbarte Daten im Speicher zugreifen. 
