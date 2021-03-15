@@ -1,0 +1,53 @@
+1. Was ist Objektorientiertes Programmieren (OOP)?
+2. Was sind Klassen in Bezug auf OOP?
+3. Was ist Vererbung in Bezug auf OOP?
+4. Welche Beziehungen können Klassen untereinander haben? Geben Sie ein Beispiel
+an.
+5. Was sind Klassen und Objekte, und in welchen Zusammenhang stehen Attribute und
+Methoden?
+6. Was bewirken die Keywörter „private“ und „public“?
+7. Was sind getter und setter Methoden?
+8. Was sind Konstruktoren und Destruktoren?
+9. Was sind Structs und wie unterscheiden Sie sich zu Klassen?
+
+
+1.  Objektorientiertes Programmieren (OOP) ist eine Softwareentwicklungsmethode, welche aus der Simulationstechnik stammt.
+• Die Idee dahinter ist es Objekte der Realität, sowie deren Beziehung zueinander im Rechner abzubilden.
+• Mit dieser Vorgehensweise lassen sich umfangreiche und komplexe Aufgaben lösen.
+2.  • Klassen sind zentraler Bestandteil der OOP und spiegeln Objekte der Realität wieder, sie können
+aber auch abstrakter Natur sein.
+• Diese besitzen innere Zustände und Fähigkeiten.
+• Die inneren Zustände sind im Computer nichts anderes als Variablen, wie z.B. der Name einer Person als string.
+• Die Fähigkeiten einer Klasse lassen sich mit Funktionen in der Programmierung beschreiben.
+3. Vererbung beschreibt die Weitergabe von Eigenschaften (Daten und Funktionen) eines Objektes an ein anderes.
+• Ein Objekt, welches Eigenschaften von anderen Objekten vererbt, kann noch zusätzlich eigene Eigenschaften besitzen.
+• Dadurch entsteht eine hierarchische Struktur.
+• Erben mehrere Objekte von einem Objekt wird dieses auch als Polymorphismus bezeichnet.
+4.• Mehrere Objekte können zueinander in Beziehung gebracht werden, um deren Interaktion miteinander zu beschreiben.
+• Neben der Vererbung, welches eine „ist“ Beziehung ist gibt es noch andere.
+• Die häufigste Art neben der Vererbungsbeziehung sind sogenannte Aggregation, welche eine feste Kopplung
+zwischen zwei Objekten bezeichnet.
+unidirektionale Beziehung : ein Mitglied der Klasse Säugetier erbt von der Klasse Tier das Attribut Futter 
+und die Methode essen. 
+Können abstrakter oder wie genannt realer Natur sein. 
+5. Objekte sind Teile einer Klasse. KLassen sind Baupläne zur Erstellung von Objekten. 
+KLassen besitzen Attribute und Methoden. Diese sind die Gegenstücke zu Variablen und Funktionen. 
+6. Die Keywörter „Public“ und „Privat“ definieren,
+ob die Attribute oder Methoden außerhalb der
+Klasse sichtbar sind oder nicht
+7. • Wie schon beschrieben, ist es eine schlechte Wahl, die Attribute einer Klasse mit dem Keyword
+„public“ zu definieren, da so direkt auf wichtige Informationen zugegriffen werden kann.
+• Die beste Option ist es hierbei, diese Attribute indirekt durch sogenannte getter- und setter-
+Funktion dem Code außerhalb der Klasse zugänglich zu machen.
+• Hierbei können beim Setzen von Attributen auch diese direkt auf ihre Richtigkeit überprüft werden.
+8.• Ein Konstruktor definiert, wie eine Klasse bei der Definition initialisiert werden soll.
+• Eine Klasse kann mehrere Konstruktoren besitzen, diese müssen dann aber
+unterschiedliche Eingabeparameter besitzen.
+• Der Destruktor (~ Operator) wird aufgerufen, wenn das Objekt seinen Variablenscope verlässt.
+• Es kann nur einen Destruktor geben.
+9. • Structs sind eine Sonderform zu Klassen.
+• In Structs können auch Attribute und Methoden zusammengefasst werden, aber alle Member des
+Structs sind frei zugänglich (public) und dies kann auch nicht geändert werden.
+• Structs werden meistens zum Zusammenfassen von Attributen verwendet, welche logisch
+zusammen gehören.
+• Attribute von Structs können nicht innerhalb dieser initialisiert werden.
