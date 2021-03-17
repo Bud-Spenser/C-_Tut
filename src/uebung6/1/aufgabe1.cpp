@@ -1,5 +1,6 @@
 #include <iostream>
 #include "auto.h"
+#include "parkhaus.h"
 using std::cout;
 using std::cin;
 using std::endl;
@@ -13,5 +14,7 @@ int main()
     auto1.setPreis(5000);
     auto1.print();
 
-    cout << "Preis: " << auto1.getPreis() << "\n";
+    Parkhaus parki;
+    parki.parkCar(auto1);
+    parki.print();
 }

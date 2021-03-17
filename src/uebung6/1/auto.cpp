@@ -20,7 +20,7 @@ void Auto::print()
     cout << "Baujahr: " << mBaujahr << "\n";
     cout << "Hersteller: " << mHersteller << "\n";
     cout << "Preis: " << mPreis << "\n";
-    cout << "Modell: " << mModell << "\n";
+    cout << "Modell: " << mModell << "\n\n";
 }
 
 void Auto::setBaujahr(int jahr)
