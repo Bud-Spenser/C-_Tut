@@ -1,0 +1,11 @@
+1. Wie werden externe Bibliotheken in C++ hinzugefügt? 
+2. Wie werden zufällige Zahlen in C++ erstellt?
+3. Wofür wird das Keyword „const“ benötigt und welche Anwendungsfälle gibt es? 
+
+1. Mit dem #include Befehl.
+2.  Erstellen von Zufallszahlen möglich mit Hilfe der C++ Bibliothek <stdlib.h>
+• Die benötigten Funktionen sind hierbei rand() und srand()
+3.  „const“ verhindert, dass der Wert innerhalb der Variablen geändert wird.
+• Pointer können zwei „const“ besitzen
+• Wird „const“ vor den Variablentyp geschrieben, ist der Speicher, auf welchen der Pointer zeigt, konstant.
+Wird „const“ nach dem Variablentyp geschrieben, so ist der Inhalt des Speicher, auf welchen der Pointer zeigt, konstant.

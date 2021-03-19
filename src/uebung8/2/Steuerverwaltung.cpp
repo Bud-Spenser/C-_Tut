@@ -67,7 +67,7 @@ int main()
                 {
                     personen[i].getSteuern();
                 }
-                for (int i=0; i<beamte.size(); i++)
+                for (int i=0; i < beamte.size(); i++)
                 {
                     beamte[i].getSteuern();
                 }
@@ -76,6 +76,7 @@ int main()
                     selbstaendige[i].getSteuern();
                 }
                 cout << "\n";
+
             }
             break;
         case 3:
