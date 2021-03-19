@@ -16,6 +16,8 @@ Person::Person()
     Steuerberechnung();
 }
 
+
+
 void Person::Steuerberechnung()
 {
     if ((mEinkommen*mSteuersatz) > mMindeststeuer)

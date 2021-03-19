@@ -6,8 +6,9 @@ class Person
 {
     public:
         Person();
-        void Steuerberechnung();
+        virtual void Steuerberechnung();
         void getSteuern();
+
     protected:
         float mEinkommen;
         float mSteuersatz;
