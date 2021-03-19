@@ -1,0 +1,15 @@
+1. Was ist Vererbung und wie wird es angewandt?
+2. In welchem Zusammenhang steht das Keyword „protected“ mit Vererbung?
+3. Was ist Polymorphismus?
+4. Erklären Sie das Konzept von Funktionen „überschreiben“ und „überladen“.
+
+1. • Vererbung ist eines der wichtigsten Konzepte der Objektorientierten Programmierung.
+    • Mit Hilfe der Vererbung können wir eine Klasse auf Basis einer schon existierenden Klasse definieren.
+    • Klassen vererben alle Attribute und Methoden, welche nicht als Privat markiert wurden.
+    • Eine Klasse kann von mehreren anderen Klassen vererben.
+2.  Protected sitzt zwischen public und private. Es vererbt Eigenschaften aber diese werden nicht öffentlich sichtbar. 
+3.  Es bedeutet, dass sich eine Klasse in mehrere Unterklassen aufteilen lässt.
+Diese erben Methoden und Attibute, werde aber anders implementiert. 
+4.  überladen - Eine Klasse kann mehrere Funktionen des gleichen Namens implementieren, wenn sich dessen Parameter unterscheidet. 
+    überschreiben - Wenn eine Funtkion mit virtual in der Mutterklasse gekennzeichnet ist, kann dessen Funktion verändert werden.
+     
